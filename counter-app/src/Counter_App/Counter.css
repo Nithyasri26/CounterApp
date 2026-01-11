@@ -1,0 +1,51 @@
+h1, h2{
+ text-align: center;
+}
+header{
+    padding:20px;
+}
+
+button{
+     color: beige;
+     font-size: 14px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+section{
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctnr{
+   
+    padding: 30px;
+    background-color:khaki;
+    box-shadow: 5px 5px 20px gray;
+    border-radius: 20px;
+  height: 200px;
+  width: 350px;
+   
+}
+.inc{
+    background-color: green;
+
+}
+.reset{
+    background-color: black;
+}
+
+.dec{
+    background-color: red;
+}
+
+.inc:hover, .reset:hover, .dec:hover{
+    color: black;
+    background-color: white;
+}
+
